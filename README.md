@@ -1,4 +1,4 @@
-# tika
+# tika [![Go Report Card](https://goreportcard.com/badge/github.com/admiralobvious/tika)](https://goreportcard.com/report/github.com/admiralobvious/tika)
 
 tika is a Golang client for the [Apache Tika](https://tika.apache.org/) (1.16) REST server.
 
