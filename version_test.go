@@ -10,5 +10,5 @@ func TestVersion(t *testing.T) {
 	c := NewTestClient()
 	r, _ := c.Version()
 
-	assert.Equal(t,"Apache Tika 1.16", r)
+	assert.Equal(t, "Apache Tika 1.16", r)
 }

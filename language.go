@@ -28,7 +28,7 @@ func (ls *LanguageService) Raw() ([]byte, error) {
 	return ls.client.raw(req)
 }
 
-// Raw returns the identified language as plain text
+// Text returns the identified language as plain text
 func (ls *LanguageService) Text() (string, error) {
 	req, err := ls.newRequest()
 	if err != nil {

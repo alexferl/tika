@@ -1,9 +1,9 @@
 package main
 
 import (
-	"os"
 	"fmt"
 	"log"
+	"os"
 
 	"github.com/admiralobvious/tika"
 )

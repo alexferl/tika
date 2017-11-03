@@ -12,7 +12,7 @@ type TranslateResource struct {
 	endpoint string
 }
 
-// TranslateResource represents the structure of our Translate options
+// TranslateOptions represents the structure of our Translate options
 type TranslateOptions struct {
 	Translator string
 	Src        string

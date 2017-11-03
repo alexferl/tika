@@ -74,7 +74,7 @@ func NewClient(options *Options) *Client {
 
 	return &Client{
 		httpClient: netClient,
-		Options: *options,
+		Options:    *options,
 	}
 }
 

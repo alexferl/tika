@@ -35,7 +35,7 @@ func (is *InfoServices) Parsers() *InfoServices {
 	return is
 }
 
-// Text returns the info as HTML
+// Html returns the info as HTML
 func (is *InfoServices) Html() (string, error) {
 	req, err := is.newRequest()
 	if err != nil {

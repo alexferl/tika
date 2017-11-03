@@ -13,7 +13,7 @@ func TestLanguageEn(t *testing.T) {
 	r, err := c.Language().Text()
 
 	assert.NoError(t, err)
-	assert.Equal(t,"en", r)
+	assert.Equal(t, "en", r)
 }
 
 func TestLanguageFr(t *testing.T) {
@@ -22,7 +22,7 @@ func TestLanguageFr(t *testing.T) {
 	r, err := c.Language().Text()
 
 	assert.NoError(t, err)
-	assert.Equal(t,"fr", r)
+	assert.Equal(t, "fr", r)
 }
 
 func TestLanguageErrNoDocument(t *testing.T) {
